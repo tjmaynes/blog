@@ -1,0 +1,10 @@
+[submodule "themes/after-dark"]
+  path = themes/after-dark
+  url = https://git.habd.as/comfusion/after-dark.git
+[submodule "themes/fractal-forest"]
+  path = themes/fractal-forest
+  url = https://git.habd.as/comfusion/fractal-forest.git
+[submodule "static/career"]
+  path = static/career
+  url = https://github.com/tjmaynes/career.git
+  branch = release
