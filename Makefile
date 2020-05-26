@@ -2,6 +2,7 @@ BLOG_DIRECTORY              = $(PWD)
 BLOG_PUBLISHING_DIRECTORY   = $(BLOG_DIRECTORY)/public
 REPO                        = git@github.com:tjmaynes/blog.git
 TARGET_BRANCH               = gh-pages
+HOST                        = $(shell hostname -I | awk '{print $1}')
 
 define execute_script
 chmod +x ./scripts/${1}.sh
@@ -17,7 +18,7 @@ build:
 	hugo --gc --minify
 
 edit:
-	hugo server --bind=0.0.0.0 --baseUrl=http://${HOST} --port=80 --buildFuture -D
+	hugo server --bind=0.0.0.0 --baseUrl=http://$(HOST) --port=80 --buildFuture -D
 
 preview: build 
 	$(call execute_script,$@) \
