@@ -1,6 +1,7 @@
 # Default Setup
 
 title = "TJ Maynes"
+relativeUrls = true
 languageCode = "en-us"
 paginate = 5
 

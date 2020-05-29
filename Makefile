@@ -2,7 +2,7 @@ BLOG_DIRECTORY              = $(PWD)
 BLOG_PUBLISHING_DIRECTORY   = $(BLOG_DIRECTORY)/public
 REPO                        = git@github.com:tjmaynes/blog.git
 TARGET_BRANCH               = gh-pages
-HOST                        = $(shell hostname -I | awk '{print $1}')
+HOST                        ?= $(shell hostname -I | awk '{print $1}')
 
 define execute_script
 chmod +x ./scripts/${1}.sh
