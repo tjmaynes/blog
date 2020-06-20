@@ -2,7 +2,7 @@
 title = "Chu and Blossom"
 date = 2012-08-07T12:00:00+01:00
 author = "TJ Maynes"
-description = "A small story about working on my first movie"
+description = "A small story about working on my first movie."
 draft = true
 toc = false
 images = [

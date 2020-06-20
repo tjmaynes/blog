@@ -1,11 +1,26 @@
----
-layout: post
-author: TJ Maynes
-title: Why Emacs
-date: 2014-07-25 00:00
-published: true
----
-*This post is an unordered list of reasons why I enjoy using emacs.*
++++
+title = "Why Emacs"
+date = 2014-07-25T12:00:00+01:00
+author = "TJ Maynes"
+description = "This post is an unordered list of reasons why I enjoy using Emacs."
+draft = true
+toc = false
+images = [
+  "https://source.unsplash.com/collection/983219/1600x900"
+] # overrides site-wide open graph image
+categories = [
+  "personal"
+]
+tags = [
+  "filmmaking",
+  "personal"
+]
+[[copyright]]
+  owner = "TJ Maynes"
+  date = "2020"
+  license = "MIT"
++++
+*This post is an unordered list of reasons why I enjoy using Emacs.*
 
 # Emacs Lisp
 Emacs uses a dialect of Lisp called <a href="https://en.wikipedia.org/wiki/Emacs_Lisp">elisp</a> which is quite powerful for making small (or large) scripts to customize emacs working environment. Also, in my opinion its important as a developer to learn a little Lisp and understand just how incredible the language is/can be. It's quite beautiful that a text editor can be configured to what you want/desire by using a language that many programmers are familiar with.

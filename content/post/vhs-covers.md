@@ -2,7 +2,7 @@
 title = "VHS Covers"
 date = 2013-02-22T12:00:00+01:00
 author = "TJ Maynes"
-description = "A small story about going to blockbuster in the 90s"
+description = "A small story about going to blockbuster in the 90s."
 draft = true
 toc = false
 images = [

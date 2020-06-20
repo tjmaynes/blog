@@ -1,30 +1,45 @@
----
-layout: post
-author: TJ Maynes
-title: Using LaTeX
-date: 2014-11-21 00:00
-published: true
----
++++
+title = "Using LaTeX"
+date = 2014-11-21T12:00:00+01:00
+author = "TJ Maynes"
+description = "This blog post serves as a gentle introduction to LaTeX, the documentation preparation system and docmentation markup language."
+draft = true
+toc = false
+images = [
+  "https://source.unsplash.com/collection/983219/1600x900"
+] # overrides site-wide open graph image
+categories = [
+  "personal"
+]
+tags = [
+  "personal",
+  "nyc"
+]
+[[copyright]]
+  owner = "TJ Maynes"
+  date = "2016"
+  license = "MIT"
++++ 
 *This blog post serves as a gentle introduction to LaTeX, the documentation preparation system and docmentation markup language.*
 
 # Background
 This semester I decided to write my reports from my Analysis of Algorithms class in LaTeX. This was not a difficult task to accomplish, it actually made writing these reports easier (and prettier). Before diving into installing LaTeX packages and setting up your first LaTeX document, let us begin by looking into the history of LaTeX.
 
 # History behind LaTeX
-<a href="http://en.wikipedia.org/wiki/TeX">TeX</a> is a typesetting system written by <a href="http://en.wikipedia.org/wiki/Donald_Knuth">Donald Knuth</a> in 1978 and is still used for typesetting complex math formulas today. LaTeX is written in TeX and, like Tex, was designed "to allow anybody to produce high-quality books using a reasonably minimal amount of effort, and to provide a system that would give exactly the same results on all computers, at any point in time".
+[Tex](http://en.wikipedia.org/wiki/TeX) is a typesetting system written by [Donald Knuth](http://en.wikipedia.org/wiki/Donald_Knuth) in 1978 and is still used for typesetting complex math formulas today. LaTeX is written in TeX and, like Tex, was designed "to allow anybody to produce high-quality books using a reasonably minimal amount of effort, and to provide a system that would give exactly the same results on all computers, at any point in time".
 
 LaTeX/TeX is still quite popular in academia in areas such as mathematics, sciences, and economics. You may have actually read a few books that were written in LaTeX (and you didn't even know). But, did you also know you can create beautiful resumes and CVs with LaTeX as well? Excited yet? Let's begin installing LaTeX on your machine!
 
 # Installation
-On Windows 7/8, download MiKTeX from <a href="http://miktex.org/download">here</a>.
+On Windows 7/8, download MiKTeX from [here](http://miktex.org/download).
 
-On Mac OS X, download MacTeX from <a href="https://tug.org/mactex/">here</a>.
+On Mac OS X, download MacTeX from [here](https://tug.org/mactex/).
 
-On *Nix System, just check your distribution's package manager for "xelatex".
+On *Nix System, just check your distribution's package manager for `xelatex`.
 
-*If you have any issues installing LaTeX, just follow this <a href="http://latex-project.org/ftp.html">link</a> for more download instructions.*
+*If you have any issues installing LaTeX, just follow this [link](http://latex-project.org/ftp.html) for more download instructions.*
 
-# Setting up your LaTeX file.
+# Setting up your LaTeX file
 This is an example from a report I wrote in my Analysis of Algorithms class. Remember that LaTeX can still be used for all kinds of documents (not just computer science reports).
 
 {% highlight latex %}
@@ -61,7 +76,7 @@ This is an example from a report I wrote in my Analysis of Algorithms class. Rem
 
 Above is a portion of code that serves as the "header" of your LaTeX document. The header of the page includes the documentclass, packages, specific fonts, etc. The "header" can be extended to include much more than this including custom layouts for various kinds of documents.
 
-You can look <a href="http://tex.stackexchange.com/questions/8750/make-your-own-sty-files">here</a> for more information on creating your own .sty files.
+You can look [here](http://tex.stackexchange.com/questions/8750/make-your-own-sty-files) for more information on creating your own .sty files.
 
 {% highlight latex %}
 \begin{document}
@@ -116,7 +131,7 @@ Below is a table of CPU times (in milliseconds) from running an increasing array
 
 Above is the portion of code that makes up the "body" of the LaTeX document. The body is where all the contents of your document are contained. In example below, I have included a Title, Author, and Date Tag (which is created by the \maketitle tag), an Algorithm function and an example table of CPU clock cycle times in Milliseconds.
 
-Download full example LaTeX file <a href="http://www.tjmaynes.com/public/example.tex">here</a>.
+Download full example LaTeX file [here](/public/example.tex)
 
 # Compiling your LaTeX file
 To compile your LaTeX file to pdf format, run the following command.
@@ -126,23 +141,23 @@ xelatex example.tex
 
 *If you run into any issues on compilation, first read the compilation error and enter 'r' to finish compilations.*
 
-You can also use an online LaTeX editor such as <a href="https://www.writelatex.com/">WriteLaTeX.com</a>.
+You can also use an online LaTeX editor such as [WriteLaTeX.com](https://www.writelatex.com/).
 
 # Conclusion
 Many LaTeX concepts can be learned from the example file, however you can learn way more by just diving into LaTeX (which ultimately helped me the most). Also, I feel as though LaTeX has helped me better structure and think through my reports for class. I hope this post was of some use to you!
 
 Please comment below with any questions or concerns. Thanks again!
 
-*Extra: <a href="https://github.com/TJMaynes/cv_resume/blob/master/resume.tex">Here</a> is an example of a LaTeX resume.*
+*Extra: [Here](https://github.com/tjmaynes/career/blob/master/resume.tex) is an example of a LaTeX resume.*
 
 # Free Templates
-* <a href="http://www.latextemplates.com/cat/curricula-vitae">LaTeXTemplates</a>
-* <a href="https://www.overleaf.com/latex/templates">Overleaf</a>
-* <a href="http://www.rpi.edu/dept/arc/training/latex/resumes/">Rensselaer Career Development Center</a>
+* [LaTeXTemplates](http://www.latextemplates.com/cat/curricula-vitae)
+* [Overleaf](https://www.overleaf.com/latex/templates)
+* [Rensselaer Career Development Center](http://www.rpi.edu/dept/arc/training/latex/resumes/)
 
 # Sources
-* <a href="http://piotrkazmierczak.com/2010/05/13/emacs-as-the-ultimate-latex-editor/">Emacs as the Ultimate LaTeX Editor</a>
-* <a href="http://en.wikipedia.org/wiki/LaTeX">LaTeX - wiki</a>
-* <a href="http://en.wikipedia.org/wiki/TeX">TeX - wiki</a>
-* <a href="http://www.reddit.com/r/latex">Reddit</a>
-* <a href="http://tex.stackexchange.com/">Stackoverflow</a>
+* [Emacs as the Ultimate LaTeX Editor](http://piotrkazmierczak.com/2010/05/13/emacs-as-the-ultimate-latex-editor/)
+* [LaTeX - wiki](http://en.wikipedia.org/wiki/LaTeX)
+* [TeX - wiki](http://en.wikipedia.org/wiki/TeX)
+* [Reddit](http://www.reddit.com/r/latex)
+* [StackExchange](http://tex.stackexchange.com/)
