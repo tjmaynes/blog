@@ -1,8 +1,7 @@
 # Blog
+![CI/CD Pipeline](https://github.com/tjmaynes/blog/workflows/github-pages/badge.svg)
 
 > Personal blog.
-
-![CI/CD Pipeline](https://github.com/tjmaynes/blog/workflows/github-pages/badge.svg)
 
 ## Requirements
 
@@ -20,9 +19,9 @@ To build the blog, run the following command:
 make build
 ```
 
-To preview the blog, run the following command:
+To edit the blog, run the following command:
 ```bash
-make preview
+make edit 
 ```
 
 To deploy the blog, run the following command:
