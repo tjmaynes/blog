@@ -6,6 +6,7 @@ stdenv.mkDerivation {
     hugo
   ];
   shellHook = ''
-  make install_dependencies && make build
+    make install_dependencies
+    make build
   '';
 }

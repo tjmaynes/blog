@@ -1,5 +1,5 @@
 # Blog
-![CI/CD Pipeline](https://github.com/tjmaynes/blog/workflows/github-pages/badge.svg)
+[![CI](https://github.com/tjmaynes/blog/actions/workflows/ci.yml/badge.svg)](https://github.com/tjmaynes/blog/actions/workflows/ci.yml)
 
 > Personal blog.
 
