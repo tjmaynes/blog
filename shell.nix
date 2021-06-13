@@ -1,7 +1,7 @@
 with import <nixpkgs> {};
 
 stdenv.mkDerivation {
-  name = "hugo";
+  name = "blog";
   buildInputs = [
     hugo
   ];
