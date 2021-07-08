@@ -3,7 +3,7 @@ title = "My Monad Analogy"
 date = 2019-10-29T12:00:00+01:00
 author = "TJ Maynes"
 description = "In this blog post we'll be discussing an analogy I use to depict what a monad is and an example of the Option monad in a real world programming scenario."
-draft = false 
+draft = true 
 toc = false
 categories = [
   "functional-programming",

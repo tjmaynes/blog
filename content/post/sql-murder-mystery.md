@@ -3,7 +3,7 @@ title = "SQL Murder Mystery"
 date = 2019-12-16T12:00:00+01:00
 author = "TJ Maynes"
 description = "In this blog post I'll be talking briefly about a fun game I found via Hackernews called SQL Murder Mystery."
-draft = false 
+draft = true 
 toc = false
 categories = [
   "sql",
